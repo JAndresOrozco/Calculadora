@@ -1,0 +1,45 @@
+.color{
+    background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898; 
+ background-blend-mode: multiply,multiply;
+    height: 60px;
+    align-self: auto;
+    color:white;
+    font-size: 30PX;
+    text-align: center;
+    margin: 1px;
+}
+.orange{
+    background-color: orange;
+    height: 60px;
+    color:white;
+    font-size: 30PX;
+    text-align: center;
+    margin: 1px;
+}
+.black{
+    background-color: black;
+    height: 60px;
+    color:white;
+    font-size: 30PX;
+    text-align: right;
+    margin: 1px;
+}
+.gr{
+    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+    background-blend-mode: multiply;
+    height: 60px;
+    color:white;
+    align-self: auto;
+    font-size: 30PX;
+    text-align: center;
+    margin: 1px;
+}
+.row{
+    margin-top: 2px;
+    min-height: 100%;
+}
+
+body,html{
+    background-image: linear-gradient(to top, #accbee 10%, #e7f0fd 80%);
+height: 100%;
+}
